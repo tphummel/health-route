@@ -29,3 +29,5 @@ module.exports = http.createServer(function(req, res) {
     return res.end("Not Found\n");
   }
 }).listen(port);
+
+console.log("slash-health running on port", port);

@@ -8,6 +8,21 @@
     "get-json-hq": "~0.1.6",
     "tape": "~2.3.2"
   },
+  "keywords": [
+    "http",
+    "server",
+    "ci",
+    "uptime",
+    "health",
+    "health check"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/tphummel/slash-health.git"
+  },
+  "bugs": {
+    "url": "http://github.com/tphummel/slash-health/issues"
+  },
   "scripts": {
     "test": "NODE_ENV=test node test.js"
   },

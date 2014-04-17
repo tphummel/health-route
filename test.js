@@ -2,7 +2,7 @@ var test = require('tape'),
     http = require('http'),
     lib = require('./');
 
-test('/health', function(t){
+test('health-route', function(t){
   var server = http.createServer(lib).listen(1337);
 
   http.get('http://localhost:1337/', function(res){

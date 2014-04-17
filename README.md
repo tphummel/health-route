@@ -1,14 +1,14 @@
-# slash-health
+# health-route
 
-a healthcheck route handler for [core http](http://nodejs.org/api/http.html). akin to [connect-health-check](http://npm.im/connect-health-check) for express/connect. for a standalone http server that serves this module, see [slash-health-server](http://npm.im/slash-health-server)
+a health-check route handler for [core http](http://nodejs.org/api/http.html). akin to [connect-health-check](http://npm.im/connect-health-check) for express/connect. for a standalone http server that serves this module, see [health-server](http://npm.im/health-server)
 
-[![Build Status](https://travis-ci.org/tphummel/slash-health.png)](https://travis-ci.org/tphummel/slash-health)
+[![Build Status](https://travis-ci.org/tphummel/health-route.png)](https://travis-ci.org/tphummel/health-route)
 
-[![NPM](https://nodei.co/npm/slash-health.png?downloads=true)](https://nodei.co/npm/slash-health/)
+[![NPM](https://nodei.co/npm/health-route.png?downloads=true)](https://nodei.co/npm/health-route/)
 
 ## install
 
-    npm install slash-health
+    npm install health-route
 
 ## test
 

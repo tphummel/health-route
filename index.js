@@ -1,4 +1,4 @@
-function healthCheck(req, res){
+function healthRoute(req, res){
   var health = {
     ts: new Date,
     pid: process.pid,
@@ -12,4 +12,4 @@ function healthCheck(req, res){
   return res.end(JSON.stringify(health));
 }
 
-module.exports = healthCheck;
+module.exports = healthRoute;

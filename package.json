@@ -1,5 +1,5 @@
 {
-  "name": "slash-health",
+  "name": "health-route",
   "version": "2.0.0",
   "description": "",
   "main": "index.js",
@@ -17,10 +17,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/tphummel/slash-health.git"
+    "url": "http://github.com/tphummel/health-route.git"
   },
   "bugs": {
-    "url": "http://github.com/tphummel/slash-health/issues"
+    "url": "http://github.com/tphummel/health-route/issues"
   },
   "scripts": {
     "test": "NODE_ENV=test node test.js"

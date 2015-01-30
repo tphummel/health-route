@@ -1,15 +1,15 @@
 function healthRoute(req, res){
   var health = {
-    ts: new Date,
+    ts: new Date(),
     pid: process.pid,
     uptime: process.uptime(),
     memory: process.memoryUsage(),
-    status: "ok"
-  };
+    status: 'ok'
+  }
 
-  res.writeHead(200, {"Content-Type": "application/json"});
+  res.writeHead(200, {'Content-Type': 'application/json'})
 
-  return res.end(JSON.stringify(health));
+  return res.end(JSON.stringify(health))
 }
 
-module.exports = healthRoute;
+module.exports = healthRoute
